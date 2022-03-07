@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>icons/Bold_icon.png</file>
+        <file>icons/copy_icon.png</file>
+        <file>icons/cut_icon.png</file>
+        <file>icons/delete_file_icon.png</file>
+        <file>icons/exit_file_icon.jpg</file>
+        <file>icons/folder.png</file>
+        <file>icons/font-style-superscript.png</file>
+        <file>icons/Icons.qrc</file>
+        <file>icons/info.png</file>
+        <file>icons/italic.png</file>
+        <file>icons/new_file_icon.png</file>
+        <file>icons/open_file_icon.png</file>
+        <file>icons/paste_icon.png</file>
+        <file>icons/redo_file_icon.jpg</file>
+        <file>icons/saveAs_file_icon.png</file>
+        <file>icons/subscript.jpg</file>
+        <file>icons/underline.png</file>
+        <file>icons/undo_file_icon.jpg</file>
+    </qresource>
+</RCC>

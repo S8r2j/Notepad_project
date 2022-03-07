@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>661</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionOpen"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+    <addaction name="separator"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionDelete"/>
+   </widget>
+   <widget class="QMenu" name="menuStyle">
+    <property name="title">
+     <string>Style</string>
+    </property>
+    <addaction name="actionBold"/>
+    <addaction name="actionUnbold"/>
+   </widget>
+   <widget class="QMenu" name="menuText_Format">
+    <property name="title">
+     <string>Text Format</string>
+    </property>
+    <addaction name="actionSuperscript"/>
+    <addaction name="actionSubscript"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_Me"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuStyle"/>
+   <addaction name="menuText_Format"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/new_file_icon.png</normaloff>:/Icons/icons/new_file_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/folder.png</normaloff>:/Icons/icons/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/open_file_icon.png</normaloff>:/Icons/icons/open_file_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/exit_file_icon.jpg</normaloff>:/Icons/icons/exit_file_icon.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/undo_file_icon.jpg</normaloff>:/Icons/icons/undo_file_icon.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/redo_file_icon.jpg</normaloff>:/Icons/icons/redo_file_icon.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/cut_icon.png</normaloff>:/Icons/icons/cut_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/copy_icon.png</normaloff>:/Icons/icons/copy_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/paste_icon.png</normaloff>:/Icons/icons/paste_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/delete_file_icon.png</normaloff>:/Icons/icons/delete_file_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/Bold_icon.png</normaloff>:/Icons/icons/Bold_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionUnbold">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/underline.png</normaloff>:/Icons/icons/underline.png</iconset>
+   </property>
+   <property name="text">
+    <string>Unbold</string>
+   </property>
+  </action>
+  <action name="actionSuperscript">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/font-style-superscript.png</normaloff>:/Icons/icons/font-style-superscript.png</iconset>
+   </property>
+   <property name="text">
+    <string>superscript</string>
+   </property>
+  </action>
+  <action name="actionSubscript">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/subscript.jpg</normaloff>:/Icons/icons/subscript.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>subscript</string>
+   </property>
+  </action>
+  <action name="actionAbout_Me">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/Icons/icons/info.png</normaloff>:/Icons/icons/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Me</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
