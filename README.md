@@ -18,7 +18,7 @@ Notepad_project is the framework assisting human to write, read and edit any tex
     OR,
     To run the application through code editor
       Download the zip file from
-            https://github.com/S8r2j/Notepad_project.git
+            https://github.com/S8r2j/Notepad_project/tree/master
       Extract the files from above in a folder
       Install the QT Creator from the below link
             https://www.qt.io/download-open-source?hsCtaTracking=9f6a2170-a938-42df-a8e2-a9f0b1d6cdce%7C6cb0de4f-9bb5-4778-ab02-bfb62735f3e5
